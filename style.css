@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@681&family=Poppins:wght@300&display=swap');
+            body{
+                text-align: center;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: poppins;
+                background: linear-gradient(160deg, darkturquoise , #623dd1 70%);
+                background-attachment: fixed;
+                color: white;
+                text-transform: uppercase;
+                
+
+            }
+            h1{
+                font-size: 75px;
+            }
+            #next{
+                margin-top: 30px;
+                margin-bottom: 90px;
+                background: transparent;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 5px;
+                border-color: white;
+                width: 160px;
+                height: 50px;
+                color: white;
+                font-family: poppins;
+                transition-duration: 0.6s;
+                outline: none;
+                font-size: 23px;
+            }
+            #next:hover{
+                background: white;
+                color: black;
+                cursor: pointer;
+            }
+            #next:active{
+                background: white;
+                color: black;
+                cursor: pointer;
+                background: darkturquoise;
+                border-color: darkturquoise;
+            }
+            img{
+               width: 500px;
+               height: 500px;
+            }
+         prsn
+         {
+             font-size: 30px;
+             color: white;
+         }

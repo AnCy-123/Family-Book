@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Family Book
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="itemAlign">
+
+        <h1>Family Book</h1>
+           <label id="prsn"></label><br>
+           <img id="bookPicture" src="MY FAMILY BOOK.png">
+           <br>
+           
+           <br>
+           <button onclick="next()" type="button" id="next">Next</button>
+           
+        </div>
+        <script>
+            var picture = [
+                "MY FAMILY BOOK.png",
+                "https://www.kindpng.com/picc/m/164-1646696_father-and-son-png-transparent-png.png",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX2VIGgYKe-bBZnIwzXRySUh0mcQJ1PGa5Gw&usqp=CAU",
+                "https://www.pngkey.com/png/detail/90-904831_cute-cartoon-girl-png-transparent-clip-art-black.png",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStkl5Exar56b2Yddc9bo3nyL-FY48uTDsq_w&usqp=CAU"
+            ]
+            var person = [
+                "",
+                "pradeep raj arusia",
+                "poonam gupta",
+                "avika gupta",
+                "anvi gupta"
+            ]
+            var i = 1;
+            function next(){
+                document.getElementById("bookPicture").src = picture[i];
+                document.getElementById("prsn").innerHTML = person[i];
+                i++;
+                if (i == 5){
+                    i = 0;
+                }
+            }
+        </script>
+        
+    </body>
+</html>
